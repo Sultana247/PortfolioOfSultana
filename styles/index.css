@@ -9,8 +9,46 @@
 }
  nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 100px;
  }
  .title{
-    font-weight: 800;
+    font-weight: bolder;
     font-size: 45px;
  }
+ nav ul li{
+   list-style: none;
+   margin-right: 50px;
+ }
+ nav li a{
+   text-decoration: none;
+ }
+
+ #u {
+   color: greenyellow;
+ }
+
+ #t {
+   color: blue;
+ }
+
+ #n {
+   color: orangered;
+ }
+.dark-2{
+   color: #474747;
+}
+
+nav ul{
+   display: flex;
+   font-size: 20px;
+   align-items: center;
+}
+.btn{
+   background-color: #FD6E0A;
+   padding: 18px;
+   color: white;
+   font-size: 20px;
+   font-weight: bold;
+}
